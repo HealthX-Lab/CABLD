@@ -77,6 +77,9 @@ If you use our work, please consider citing:
         year={2025}
 }
 ```
+## :envelope: Contact
+
+For any questions, feel free to contact the corresponding author: soorena.salari@concordia.ca.
 
 ## Acknowledgements
 

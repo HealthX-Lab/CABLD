@@ -54,13 +54,6 @@ Results reported below show accuracy for three T1w MRI datasets (HCP, OASIS, and
 | [Fully Sup. 3D CNN](https://arxiv.org/abs/2411.17845)               |  4.65 ± 2.40 | 4.53 ± 2.81 | 6.64 ± 3.86 | — |
 | [**CABLD**](https://arxiv.org/abs/2411.17845)  | **3.27 ± 2.24** | **3.89 ± 2.69** | **5.11 ± 3.19** | 3.99 ± 2.25 |
 
-
-<p float="left">
-  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/PerformanceComparisonDiffMethods.png" width="100%" />
-</p>
-
-
-
 ## 🛠 Requirements
 
 - **Python** >= 3.8  

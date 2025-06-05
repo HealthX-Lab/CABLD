@@ -18,6 +18,10 @@
 ## Method
 ![main figure](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 
+<p float="left">
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/RCConv_kernel1.png" width="100%" />
+</p>
+
 ### ✨ Key Features
 
 - **Single Reference Annotation**: Reduces annotation effort.

@@ -27,9 +27,6 @@
 
 
 ## Results
-<p float="left">
-  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/QualitativeResult_H.png" width="100%" />
-</p>
 
 <p float="left">
   <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/PerformanceComparisonDiffMethods.png" width="100%" />

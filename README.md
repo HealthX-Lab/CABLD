@@ -29,14 +29,6 @@
 
 ## Results
 
-<p float="left">
-  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/PerformanceComparisonDiffMethods.png" width="100%" />
-</p>
-
-<p float="left">
-  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/performance_comparison_mre_2_edited.png" width="100%" />
-</p>
-
 Results reported below show accuracy for three T1w MRI datasets (HCP, OASIS, and SNSX) and one T2w dataset (HCP) which features an unseen contrast.
 ### Mean Radial Error (MRE) Comparison Across Datasets (mm)
 | **Method**             | **HCP T1w** | **OASIS T1w** | **SNSX T1w** | **HCP T2w** |
@@ -56,7 +48,13 @@ Results reported below show accuracy for three T1w MRI datasets (HCP, OASIS, and
 | [**CABLD**](https://arxiv.org/abs/2411.17845)  | **3.27 ± 2.24** | **3.89 ± 2.69** | **5.11 ± 3.19** | 3.99 ± 2.25 |
 
 
+<p float="left">
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/PerformanceComparisonDiffMethods.png" width="100%" />
+</p>
 
+<p float="left">
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/performance_comparison_mre_2_edited.png" width="100%" />
+</p>
 
 ## 🛠 Requirements
 

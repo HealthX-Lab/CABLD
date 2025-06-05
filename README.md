@@ -23,6 +23,13 @@
 3) **3D Random Convolution for Contrast Augmentation:**: Pioneers the use of 3D random convolution layers for contrast augmentation, enabling robust performance across unseen MRI contrasts without requiring multi-contrast training data.
 4) **Clinically Validated and Robust Performance:**:  Achieves state-of-the-art accuracy on multiple datasets and shows strong generalization to T2w scans, anatomical misalignments, and downstream disease diagnosis (PD/AD) via landmark-based features.
 
+### :ballot_box_with_check: 3D RC for contrast augmentation
+To improve generalization across different and usnseen MRI contrasts, we use 3D random convolutions for contrast augmentation
+
+<p float="left">
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/RCConv_kernel1.png" width="100%" />
+</p>
+
 <p float="left">
   <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/RCConv_kernel1.png" width="100%" />
 </p>

@@ -36,7 +36,7 @@ To improve generalization across different and usnseen MRI contrasts, we use 3D 
 
 ## Results
 
-Results reported below show accuracy for three T1w MRI datasets (HCP, OASIS, and SNSX) and one T2w dataset (HCP) which features an unseen contrast.
+Results reported below show accuracy for three T1w MRI datasets (HCP, OASIS, and SNSX) and one T2w MRI dataset (HCP), which features an unseen contrast.
 ### Mean Radial Error (MRE) Comparison Across Datasets (mm)
 | **Method**             | **HCP T1w** | **OASIS T1w** | **SNSX T1w** | **HCP T2w** |
 |-------------------------|:-------:|:-------:|:-------:|:-------:|

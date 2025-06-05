@@ -39,7 +39,7 @@
 
 Results reported below show accuracy for few-shot scenarios as well as base and novel classes across 11 biomedical recognition datasets averaged over 3 seeds.
 ### Mean Radial Error (MRE) Comparison Across Datasets (mm)
-| **Method**             | $HCP T1w$ | $OASIS T1w$ | $SNSX T1w$ | $HCP T2w$ |
+| **Method**             | **HCP T1w** | **OASIS T1w** | **SNSX T1w** | **HCP T2w** |
 |-------------------------|:-------:|:-------:|:-------:|:-------:|
 | [3D SIFT](https://arxiv.org/abs/2110.04544)           |  39.44 ± 31.02 | 39.08 ± 29.70 | 41.67 ± 31.84 | 54.90 ± 24.51 |
 | [NiftyReg](https://arxiv.org/abs/2111.03930)            |  4.43 ± 2.42 | 8.23 ± 3.29 | 9.61 ± 4.03 | 4.40 ± 2.41 |

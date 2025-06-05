@@ -5,7 +5,7 @@ This repository contains the implementation of the self-supervised deep learning
 **"CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization"**  
 by *Soorena Salari, Arash Harirpoush, Hassan Rivaz, and Yiming Xiao*
 
-![System Workflow](https://github.com/HealthX-Lab/CABLD/Images/Workflow.png)
+![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 
 ---
 

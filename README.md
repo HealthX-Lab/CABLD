@@ -37,6 +37,26 @@
   <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/performance_comparison_mre_2_edited.png" width="100%" />
 </p>
 
+Results reported below show accuracy for few-shot scenarios as well as base and novel classes across 11 biomedical recognition datasets averaged over 3 seeds.
+### Mean Radial Error (MRE) Comparison Across Datasets (mm)
+| **Method**             | $HCP T1w$ | $OASIS T1w$ | $SNSX T1w$ | $HCP T2w$ |
+|-------------------------|:-------:|:-------:|:-------:|:-------:|
+| [3D SIFT](https://arxiv.org/abs/2110.04544)           |  39.44 ± 31.02 | 39.08 ± 29.70 | 41.67 ± 31.84 | 54.90 ± 24.51 |
+| [NiftyReg](https://arxiv.org/abs/2111.03930)            |  4.43 ± 2.42 | 8.23 ± 3.29 | 9.61 ± 4.03 | 4.40 ± 2.41 |
+| [ANTs (CC)](https://arxiv.org/abs/2111.03930)          |  3.85 ± 2.26 | 4.38 ± 2.64 | 6.36 ± 3.28 | — |
+| [ANTs (MI)](https://arxiv.org/abs/2103.00020)           |  3.65 ± 2.29 | 4.15 ± 2.65 | 6.06 ± 3.22 | **3.91 ± 2.19** |
+| [KeyMorph (64 KPs)](https://arxiv.org/abs/2404.02285)                   |  8.05 ± 4.51 | 8.20 ± 4.64 | 9.73 ± 5.35 | 6.00 ± 2.64 |
+| [KeyMorph (128 KPs)](https://arxiv.org/abs/2109.01134)                  |  5.77 ± 2.91 | 6.41 ± 3.41 | 8.99 ± 4.16 | 8.66 ± 4.29 |
+| [KeyMorph (256 KPs)](https://arxiv.org/abs/2203.05557)                |  5.37 ± 3.12 | 6.44 ± 3.81 | 8.80 ± 5.22 | 6.41 ± 3.06 |
+| [KeyMorph (512 KPs)](https://arxiv.org/abs/2303.13283)                |  4.67 ± 2.47 | 7.15 ± 3.63 | 5.77 ± 3.27 | 5.54 ± 3.31 |
+| [BrainMorph ](https://arxiv.org/abs/2205.14865)               |  4.11 ± 2.30 | 5.28 ± 3.07 | 13.66 ± 18.21 | 4.24 ± 2.43 |
+| [uniGradICON](https://arxiv.org/abs/2205.14865)               |  4.12 ± 2.53 | 4.63 ± 3.00 | 5.27 ± 3.53 | 13.44 ± 3.88 |
+| [MultiGradICON](https://arxiv.org/abs/2205.14865)               |  4.10 ± 2.56 | 4.62 ± 3.01 | 5.21 ± 3.40 | 4.31 ± 2.70 |
+| [Fully Sup. 3D CNN](https://arxiv.org/abs/2205.14865)               |  4.65 ± 2.40 | 4.53 ± 2.81 | 6.64 ± 3.86 | — |
+| [**CABLD**](https://arxiv.org/abs/2411.17845)  | **3.27 ± 2.24** | **3.89 ± 2.69** | **5.11 ± 3.19** | 3.99 ± 2.25 |
+
+
+
 
 ## 🛠 Requirements
 

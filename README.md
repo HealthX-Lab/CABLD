@@ -16,6 +16,7 @@ CABLD is a data-efficient self-supervised deep learning framework for anatomical
 - **Single Reference Annotation**: Reduces annotation effort.
 - **Consistency-Based Learning**: Enforces anatomically meaningful landmark protocols.
 - **3D Random Convolution for Contrast Augmentation**: Promotes generalization across unseen MRI contrasts.
+
 ![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 ---
 

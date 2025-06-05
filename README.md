@@ -1,5 +1,5 @@
 # CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization
-
+**[Health-X Lab](http://www.healthx-lab.ca/)** | **[IMPACT Lab](https://users.encs.concordia.ca/~impact/)** 
 This repository contains the implementation of the self-supervised deep learning framework presented in the paper:
 
 **"CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization"**  

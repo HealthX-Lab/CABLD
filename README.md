@@ -27,7 +27,7 @@
 To improve generalization across different and usnseen MRI contrasts, we use 3D random convolutions for contrast augmentation
 
 <p float="left">
-  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/RCConv_kernel1.png" width="100%" />
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/RCModel.png" width="100%" />
 </p>
 
 <p float="left">

@@ -5,8 +5,6 @@ This repository contains the implementation of the self-supervised deep learning
 **"CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization"**  
 by *Soorena Salari, Arash Harirpoush, Hassan Rivaz, and Yiming Xiao*
 
-![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
-
 ---
 
 ## 🧠 Overview
@@ -20,6 +18,7 @@ CABLD is a data-efficient self-supervised deep learning framework for anatomical
 - **3D Random Convolution for Contrast Augmentation**: Promotes generalization across unseen MRI contrasts.
 
 ---
+![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 
 ## 🛠 Requirements
 

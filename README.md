@@ -32,6 +32,10 @@
   <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/PerformanceComparisonDiffMethods.png" width="100%" />
 </p>
 
+<p float="left">
+  <img src="https://github.com/HealthX-Lab/CABLD/blob/main/Images/performance_comparison_mre_2_edited.png" width="100%" />
+</p>
+
 
 ## 🛠 Requirements
 

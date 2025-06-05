@@ -10,14 +10,13 @@ by *Soorena Salari, Arash Harirpoush, Hassan Rivaz, and Yiming Xiao*
 ## 🧠 Overview
 
 CABLD is a data-efficient self-supervised deep learning framework for anatomical landmark detection in 3D brain MRI. It requires only **a single annotated reference scan** and uses landmark consistency across subjects to **generalize across unseen MRI contrasts** (e.g., T1w, T2w).
-![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 
 ### ✨ Key Features
 
 - **Single Reference Annotation**: Reduces annotation effort.
 - **Consistency-Based Learning**: Enforces anatomically meaningful landmark protocols.
 - **3D Random Convolution for Contrast Augmentation**: Promotes generalization across unseen MRI contrasts.
-
+![System Workflow](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 ---
 
 ## 🛠 Requirements

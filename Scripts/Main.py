@@ -181,21 +181,6 @@ def main():
         print(f"Epoch {epoch:4d}: Total={avg_loss:.4e}, Recon={recons_loss_acc/steps_per_epoch:.4e}, "
               f"Landmark={lm_loss_acc/steps_per_epoch:.4e}, LR={scheduler.get_last_lr()[0]:.2e}")
 
-        # Validation
-        val_loss = validate(network, fixed_tensor, fixed_affine, device, return_weights=False)
-        print(f"Validation MRE: {val_loss:.4f}")
-
-        # Early stopping & checkpointing
-        if val_loss < best_loss:
-            best_loss = val_loss
-            torch.save(network.state_dict(), 'best_model.pt')
-            print("Saved best model.")
-            trig = 0
-        else:
-            trig += 1
-            if trig >= patience:
-                print("Early stopping triggered.")
-                break
 
 
 if __name__ == '__main__':

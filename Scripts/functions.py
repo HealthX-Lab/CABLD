@@ -34,6 +34,21 @@ def align_img(grid, x):
         x, grid=grid, mode="bilinear", padding_mode="border", align_corners=False
     )
 
+def landmark_consistency_loss(
+    pred: torch.Tensor,
+    tgt: torch.Tensor,
+):
+    """
+    Mean‐squared distance (or weighted sum) between predicted and target landmarks.
+    Args:
+      pred:    (batch, N, 3) predicted keypoints in normalized coords
+      tgt:     (batch, N, 3) target keypoints in normalized coords
+      weights: (batch, N)   optional per‐point weights
+    Returns:
+      scalar loss
+    """
+    dists = torch.norm(pred - tgt, dim=-1)
+    return dists.mean()
 
 def view_cm(x_moved,
             x_aligned,

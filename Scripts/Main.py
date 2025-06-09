@@ -150,31 +150,33 @@ def main():
             aug = RCContrastAugmentationWithNonLinearity(4, 1, 0.2).to(device)
 
             recons_losses, lm_losses = [], []
-            for sample in samples:
-                aligned, moving_kp, _ = mov_register_RC(
-                    network, sample, target_kp, aug,
+           
+            aligned1, moved_kps1, _ = mov_register_RC(
+                    network, samples[0], target_kp, aug,
                     downsample=False, scale=2, GammaAug=True,
                     return_weights=False
                 )
-                recons_losses.append(F.mse_loss(fixed_tensor, aligned))
-                lm_losses.append(landmark_consistency_loss(moving_kp, target_kp))
+            aligned2, moved_kps2, _ = mov_register_RC(
+                    network, samples[2], target_kp, aug,
+                    downsample=False, scale=2, GammaAug=True,
+                    return_weights=False
+                )
+            
+            recons_losses=F.mse_loss(fixed_tensor.detach(), aligned1)+F.mse_loss(fixed_tensor.detach(), aligned2)
+            lm_losses=landmark_consistency_loss(moved_kps1, target_kp)+\
+                      landmark_consistency_loss(moved_kps2, target_kp)+\
+                      landmark_consistency_loss(moved_kps1, moved_kps2)
 
-            recons_loss = sum(recons_losses)
-            lm_loss = sum(lm_losses) + sum(
-                landmark_consistency_loss(m1, m2)
-                for i, m1 in enumerate(lm_losses)
-                for m2 in lm_losses[i+1:]
-            )
 
-            loss = beta * recons_loss + alpha * lm_loss
+            loss = beta * recons_losses + alpha * lm_losses
             optimizer.zero_grad()
             scaler.scale(loss).backward()
             scaler.step(optimizer)
             scaler.update()
 
             epoch_loss += loss.item()
-            recons_loss_acc += recons_loss.item()
-            lm_loss_acc += lm_loss.item()
+            recons_loss_acc += recons_losses.item()
+            lm_loss_acc += lm_losses.item()
 
         scheduler.step()
         avg_loss = epoch_loss / steps_per_epoch

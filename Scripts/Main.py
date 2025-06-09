@@ -108,7 +108,7 @@ def main():
     lr = 1e-4
 
     # Initialize model
-    network = ConvNetCoM(dim=3, input_ch=1, out_dim=128, norm_type="instance").to(device)
+    network = ConvNetCoM(dim=3, input_ch=1, out_dim=32, norm_type="instance").to(device)
     
 
     optimizer = Adam(network.parameters(), lr=lr)

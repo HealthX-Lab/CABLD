@@ -18,10 +18,10 @@
 ## Method
 ![main figure](https://github.com/HealthX-Lab/CABLD/blob/main/Images/Workflow.png)
 ### ✨ Key Features
-1) **One-Shot Contrast-Agnostic Landmark Detection:**: CABLD detects 3D brain landmarks from unlabeled scans using only a single annotated template, eliminating the need for large labeled datasets.
-2) **Consistency-Regularized Multi-Task Learning:**: Introduces dual inter-subject and subject-template consistency losses alongside a deformable registration loss to enforce anatomically landmark detection.
-3) **3D Random Convolution for Contrast Augmentation:**: Pioneers the use of 3D random convolution layers for contrast augmentation, enabling robust performance across unseen MRI contrasts without requiring multi-contrast training data.
-4) **Clinically Validated and Robust Performance:**:  Achieves state-of-the-art accuracy on multiple datasets and shows strong generalization to T2w scans, anatomical misalignments, and downstream disease diagnosis (PD/AD) via landmark-based features.
+1) **One-Shot Contrast-Agnostic Landmark Detection:** CABLD detects 3D brain landmarks from unlabeled scans using only a single annotated template, eliminating the need for large labeled datasets.
+2) **Consistency-Regularized Multi-Task Learning:** Introduces dual inter-subject and subject-template consistency losses alongside a deformable registration loss to enforce anatomically landmark detection.
+3) **3D Random Convolution for Contrast Augmentation:** Pioneers the use of 3D random convolution layers for contrast augmentation, enabling robust performance across unseen MRI contrasts without requiring multi-contrast training data.
+4) **Clinically Validated and Robust Performance:** Achieves state-of-the-art accuracy on multiple datasets and shows strong generalization to T2w scans, anatomical misalignments, and downstream disease diagnosis (PD/AD) via landmark-based features.
 
 ### :ballot_box_with_check: 3D RC for Contrast Augmentation
 To improve generalization across different and unseen MRI contrasts, we use 3D random convolutions for contrast augmentation

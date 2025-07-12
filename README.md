@@ -68,13 +68,13 @@ pip install torch torchvision SimpleITK monai numpy scipy pandas
 
 ```
 ## Citation
-If you use our work, please consider citing:
+If you find this repository useful, please consider giving a star ⭐ and citation:
 ```bibtex
 @article{salari2025cabldcontrastagnosticbrainlandmark,
         title={CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization},
         author={Salari, Soorena and Harirpoush, Arash and Rivaz, Hassan and Xiao, Yiming},
-        journal={arXiv preprint arXiv:2411.17845},
-        year={2025}
+        booktitle={International Conference on Computer Vision},  
+        year={2025}  
 }
 ```
 ## :envelope: Contact

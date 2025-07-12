@@ -73,7 +73,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 @article{salari2025cabldcontrastagnosticbrainlandmark,
         title={CABLD: Contrast-Agnostic Brain Landmark Detection with Consistency-Based Regularization},
         author={Salari, Soorena and Harirpoush, Arash and Rivaz, Hassan and Xiao, Yiming},
-        booktitle={International Conference on Computer Vision},  
+        booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},  
         year={2025}  
 }
 ```

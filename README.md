@@ -4,7 +4,7 @@
 
 [Soorena Salari](https://soorenasalari.github.io/), [Arash Harirpoush](https://arashharirpoosh.github.io/), [Hassan Rivaz](https://users.encs.concordia.ca/~hrivaz/), [Yiming Xiao](https://yimingxiao.weebly.com/curriculum-vitae.html)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2411.15232)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2411.17845)
 [![Overview](https://img.shields.io/badge/Overview-Read-blue.svg)](#overview)
 [![BibTeX](https://img.shields.io/badge/BibTeX-Cite-blueviolet.svg)](#citation)
 ---

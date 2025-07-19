@@ -83,4 +83,4 @@ For any questions, feel free to contact the corresponding author: soorena.salari
 
 ## Acknowledgements
 
-Our code builds upon the [KeyMorph](https://github.com/alanqrwang/keymorph) and [BrainMorph](https://github.com/alanqrwang/brainmorph) repositories. We are grateful to the authors for making their code publicly available. If you use our model or code, we kindly request that you also consider citing these foundational works.
+Our code builds upon the [KeyMorph](https://github.com/alanqrwang/keymorph), [BrainMorph](https://github.com/alanqrwang/brainmorph), and [AFIDs](https://github.com/afids/afids-data/tree/main) repositories. We are grateful to the authors for making their code publicly available. If you use our model or code, we kindly request that you also consider citing these foundational works.
